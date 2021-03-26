@@ -1,0 +1,279 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+body{
+	font-family:sans-serif;
+}
+/* header start */
+.header{
+	overflow:hidden;
+	margin:10px 0px;
+	
+}
+.containar{
+	width:90%;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+	width:30px;
+}
+.menu{
+	width:70%;
+	float:right
+}
+.menu ul{
+	transition-duration:0.1s;
+	transition-delay:0.3s;
+	transition-timing-function:linear;
+}
+.menu ul li{
+	list-style:none;
+	display:inline-block;
+	padding:15px 25px
+}
+.menu ul li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:18px;
+	color:#4C5965;
+	transition:0.3s;
+
+
+}
+.menu ul li a:hover{
+	color:#2D77E4;
+	text-decoration:underline;
+}
+#sub_menu li{
+	padding:20px 5px;
+}
+#sub_menu li a{
+	color:white !important;
+	display:block !important;
+	
+}
+#sub_menu li a:hover{
+	color:blue !important;
+}
+#sub_menu{
+	position:absolute;
+	top:70px;
+	width:200px;
+	background:#34BBD5;
+	margin-left:-9999999px;
+	
+}
+.menu li:hover #sub_menu{
+	margin-left:0px;
+	
+}
+/* header end */
+/* bannersection start */
+.banner{
+	background-image:url("../img/home.jpg"); 
+	height: 80vh;
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.contain{
+		
+}
+.containar{
+
+}
+.writing{  
+	width: 16%;
+	padding: 30px;
+	margin-top: 0px;
+	position: absolute;
+	top:200px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.writing h1{
+    color: white;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+}
+.writing p{
+    color: white;
+    padding-bottom: 20px;
+}
+.writing a{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10 13px;
+    text-decoration:none;
+    border-radius: 5px;
+}
+/* banner section end */
+/* boxcontain start */
+.boxcontain{
+	margin-top:20px;
+	overflow:hidden
+}
+.boxmenu{
+	width: 90%;
+	margin:0 auto;
+	overflow:hidden
+}
+/* box1 strat */
+.box1{
+	width: 245px;
+	margin-top: 40px;
+	float:left;
+	margin-right:140px;
+	height:300px
+}
+.box1 h2{
+	text-align: center;
+    font-size: 25px;
+    color: coral;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+.box1 p{
+	line-height: 30px;
+	font-size: 13px
+}
+.box1 img{
+	margin-bottom: 15px;
+}
+.box1 a{
+	margin-left: 85px;
+    padding: 4px 13px;
+    background-color: #2B4868;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px
+}
+.text{
+	margin-bottom: 50px;
+	text-align: center;
+}
+/* box1 end */
+/* box2 start */
+.box2{
+	width: 250px;
+	margin-top: 35px;
+	float:left;
+	margin-left: 90px;
+	
+}
+.box2 h2{
+		
+	text-align: center;
+    font-size: 25px;
+    color: coral;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+.box2 p{	
+	line-height: 30px;
+	font-size: 13px
+}
+.box2 img{
+	margin-bottom: 15px;
+}
+.box2 a{	
+	margin-left: 85px;
+    padding: 4px 13px;
+    background-color: #2B4868;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px
+
+}
+.text{
+	margin-bottom: 50px;
+	text-align: center;
+}
+/* box2 end */
+/* box3 start */
+.box3{
+	width: 250px;
+	margin-top: 35px;
+	float:left;
+	margin-left: 220px;
+}
+.box3 h2{
+	text-align: center;
+    font-size: 25px;
+    color: coral;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+.box3 p{
+	line-height: 30px;
+	font-size: 13px
+}
+.box3 img{
+	margin-bottom: 15px;
+}
+.box3 a{
+	margin-left: 85px;
+    padding: 4px 13px;
+    background-color: #2B4868;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px
+}
+.text{
+	margin-bottom: 50px;
+	text-align: center;
+}
+/* box3 end */
+/* boxcontain end */
+.footer{
+	width:100%
+}
+#contain{
+	width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-right: 240px;
+	margin-bottom:50px
+}
+.footertext{}
+.footertext p{
+    font-size: 18px;
+	margin-bottom:10px
+	
+}
+.text2{
+	font-size:13px !important;
+	margin-bottom:20px !important;
+	margin-left:40px
+}
+.icon{
+	display:inline-block;
+	padding: 0px 10px;
+	margin-left:105px;
+	
+}
+.icon a{
+    display: inline-block;
+    padding: 10px;
+    background: #334473;
+    color: white;
+	margin-right:7px
+}
+.icon a i {
+		
+}
+.twitter{
+	background-color:#27AAE2 !important;
+}
+.fabglide{
+	background-color:#DA4C38 !important;
+}
+.fasfawi{
+	background-color:#F8A120 !important;
+}
